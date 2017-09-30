@@ -33,8 +33,9 @@
 }
 
 - (void)testExample {
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    NSLog(@"自定义测试testExample");
+    int  a= 3;
+    XCTAssertTrue(a == 0,"a 不能等于 0");
 }
 
 @end
