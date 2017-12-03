@@ -12,6 +12,8 @@ target 'MyDemo' do
     # Pods for testing
     pod 'AFNetworking'
     pod 'STAlertView'
+    pod 'Masonry', '~> 1.0.0'
+    
   end
 
   target 'MyDemoUITests' do

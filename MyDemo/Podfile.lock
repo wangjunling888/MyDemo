@@ -14,16 +14,19 @@ PODS:
   - AFNetworking/Serialization (3.1.0)
   - AFNetworking/UIKit (3.1.0):
     - AFNetworking/NSURLSession
+  - Masonry (1.0.2)
   - STAlertView (1.0.0)
 
 DEPENDENCIES:
   - AFNetworking
+  - Masonry (~> 1.0.0)
   - STAlertView
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   STAlertView: bfcbdfed87dc7bfb35c04acd5d96aecebb923d48
 
-PODFILE CHECKSUM: 129a4fc5b1f0f9bab0f3fb892f6b6f4745b9357d
+PODFILE CHECKSUM: af48b770e37b7398261b496f78ebeb15d5695a1b
 
 COCOAPODS: 1.2.1
