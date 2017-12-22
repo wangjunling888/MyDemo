@@ -16,17 +16,23 @@ PODS:
     - AFNetworking/NSURLSession
   - Masonry (1.0.2)
   - STAlertView (1.0.0)
+  - YBAttributeTextTapAction (2.0.6)
+  - YYText (1.0.7)
 
 DEPENDENCIES:
   - AFNetworking
-  - Masonry (~> 1.0.0)
+  - Masonry
   - STAlertView
+  - YBAttributeTextTapAction
+  - YYText
 
 SPEC CHECKSUMS:
   AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   STAlertView: bfcbdfed87dc7bfb35c04acd5d96aecebb923d48
+  YBAttributeTextTapAction: 650ff36251479f8cfc7b5dd8fb62587c538ce502
+  YYText: 5c461d709e24d55a182d1441c41dc639a18a4849
 
-PODFILE CHECKSUM: af48b770e37b7398261b496f78ebeb15d5695a1b
+PODFILE CHECKSUM: 8c6d9dc064e578fa528a516dec9a53041535b1d6
 
 COCOAPODS: 1.2.1

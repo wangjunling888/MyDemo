@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3370CBC41FD44F34005D1EDD /* JLTestLightLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */; };
+		3370CBC71FD45027005D1EDD /* JLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3370CBC61FD45027005D1EDD /* JLBaseViewController.m */; };
 		33B260EB1F7F724100C8F92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B260EA1F7F724100C8F92D /* AppDelegate.m */; };
 		33B260EE1F7F724100C8F92D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B260ED1F7F724100C8F92D /* ViewController.m */; };
 		33B260F11F7F724100C8F92D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33B260EF1F7F724100C8F92D /* Main.storyboard */; };
@@ -39,6 +41,10 @@
 
 /* Begin PBXFileReference section */
 		31F6926B1572D7403877EAC1 /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		3370CBC21FD44F34005D1EDD /* JLTestLightLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTestLightLabelViewController.h; sourceTree = "<group>"; };
+		3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTestLightLabelViewController.m; sourceTree = "<group>"; };
+		3370CBC51FD45027005D1EDD /* JLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLBaseViewController.h; sourceTree = "<group>"; };
+		3370CBC61FD45027005D1EDD /* JLBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLBaseViewController.m; sourceTree = "<group>"; };
 		33B260E61F7F724100C8F92D /* MyDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B260E91F7F724100C8F92D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		33B260EA1F7F724100C8F92D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -122,6 +128,10 @@
 				33B260EA1F7F724100C8F92D /* AppDelegate.m */,
 				33B260EC1F7F724100C8F92D /* ViewController.h */,
 				33B260ED1F7F724100C8F92D /* ViewController.m */,
+				3370CBC51FD45027005D1EDD /* JLBaseViewController.h */,
+				3370CBC61FD45027005D1EDD /* JLBaseViewController.m */,
+				3370CBC21FD44F34005D1EDD /* JLTestLightLabelViewController.h */,
+				3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */,
 				33B260EF1F7F724100C8F92D /* Main.storyboard */,
 				33B260F21F7F724100C8F92D /* Assets.xcassets */,
 				33B260F41F7F724100C8F92D /* LaunchScreen.storyboard */,
@@ -243,6 +253,7 @@
 		33B260DE1F7F724100C8F92D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = JL;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "王俊岭";
 				TargetAttributes = {
@@ -452,7 +463,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3370CBC41FD44F34005D1EDD /* JLTestLightLabelViewController.m in Sources */,
 				33B260EE1F7F724100C8F92D /* ViewController.m in Sources */,
+				3370CBC71FD45027005D1EDD /* JLBaseViewController.m in Sources */,
 				33B260F91F7F724100C8F92D /* main.m in Sources */,
 				33B260EB1F7F724100C8F92D /* AppDelegate.m in Sources */,
 			);

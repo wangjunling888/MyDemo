@@ -6,14 +6,17 @@ target 'MyDemo' do
   # use_frameworks!
 
   # Pods for MyDemo
-
+  pod 'AFNetworking'
+  pod 'STAlertView'
+  pod 'Masonry'
+  pod 'YBAttributeTextTapAction'
+  pod 'YYText'
+  
+  
+  
   target 'MyDemoTests' do
     inherit! :search_paths
-    # Pods for testing
-    pod 'AFNetworking'
-    pod 'STAlertView'
-    pod 'Masonry', '~> 1.0.0'
-    
+   
   end
 
   target 'MyDemoUITests' do
