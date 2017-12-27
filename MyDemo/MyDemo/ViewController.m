@@ -72,5 +72,7 @@
         [self.navigationController pushViewController:vc animated:YES];
     }
 }
-
+- (void)test {
+    
+}
 @end
