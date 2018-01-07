@@ -8,13 +8,16 @@
 
 #import "ViewController.h"
 #import "JLTestLightLabelViewController.h"
+#import "CQSideBarManager.h"
 
 
-@interface ViewController () <UITableViewDelegate, UITableViewDataSource>
+@interface ViewController () <UITableViewDelegate, UITableViewDataSource, CQSideBarManagerDelegate>
 
 @property (weak, nonatomic) IBOutlet UITableView *tableView;
 
 @property (nonatomic, strong) NSArray *dataArr;
+
+@property (nonatomic, strong) JLTestLightLabelViewController *sideBarVC;
 
 
 @end
@@ -55,8 +58,8 @@
 - (NSArray *)dataArr {
     if (_dataArr == nil) {
         _dataArr = @[
-                     @"测试富文本label"
-                     
+                     @"测试富文本label",
+                     @"测试侧边栏"
                      ];
     }
     return _dataArr;
@@ -70,9 +73,22 @@
         
         JLTestLightLabelViewController *vc = [[JLTestLightLabelViewController alloc] init];
         [self.navigationController pushViewController:vc animated:YES];
+    } else if ([str isEqualToString:@"测试侧边栏"]) {
+        [[CQSideBarManager sharedInstance] openSideBar:self];
     }
 }
-- (void)test {
-    
+#pragma mark - CQSideBarManagerDelegate
+- (UIView *)viewForSideBar {
+    return self.sideBarVC.view;
 }
+
+- (JLTestLightLabelViewController *)sideBarVC {
+    if (_sideBarVC == nil) {
+        _sideBarVC = [[JLTestLightLabelViewController alloc] init];
+        _sideBarVC.view.cq_width = self.view.cq_width - 35.f;
+    }
+    return _sideBarVC;
+}
+
+
 @end
