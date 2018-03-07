@@ -79,6 +79,9 @@
     
     NSLog(@"测试");
     
+    NSLog(@"测试");
+    
+    
 }
 #pragma mark - CQSideBarManagerDelegate
 - (UIView *)viewForSideBar {
