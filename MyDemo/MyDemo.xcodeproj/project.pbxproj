@@ -17,6 +17,10 @@
 		33B260F91F7F724100C8F92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B260F81F7F724100C8F92D /* main.m */; };
 		33B261031F7F724100C8F92D /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B261021F7F724100C8F92D /* MyDemoTests.m */; };
 		33B2610E1F7F724100C8F92D /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B2610D1F7F724100C8F92D /* MyDemoUITests.m */; };
+		33BD16231FFCC29A00171ABA /* UIView+CQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD161D1FFCC29A00171ABA /* UIView+CQExtension.m */; };
+		33BD16241FFCC29A00171ABA /* CQSideBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD161E1FFCC29A00171ABA /* CQSideBarManager.m */; };
+		33BD16251FFCC29A00171ABA /* CQSideBarConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD161F1FFCC29A00171ABA /* CQSideBarConst.m */; };
+		33BD16281FFDC48500171ABA /* JLSelectItemViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD16271FFDC48500171ABA /* JLSelectItemViewController.m */; };
 		4752158FED7E1656C1632898 /* libPods-MyDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF87AB4AE67B44496EC44A7C /* libPods-MyDemoTests.a */; };
 		636562EAB565DFB9F1B803BA /* libPods-MyDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5941C4C8E0FA1B8C5654C86 /* libPods-MyDemoUITests.a */; };
 		DA8FF2FE15FE68BF4BD5E1BC /* libPods-MyDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 881DE511D487A27010560C00 /* libPods-MyDemo.a */; };
@@ -61,6 +65,14 @@
 		33B261091F7F724100C8F92D /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B2610D1F7F724100C8F92D /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		33B2610F1F7F724100C8F92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BD161D1FFCC29A00171ABA /* UIView+CQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CQExtension.m"; sourceTree = "<group>"; };
+		33BD161E1FFCC29A00171ABA /* CQSideBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQSideBarManager.m; sourceTree = "<group>"; };
+		33BD161F1FFCC29A00171ABA /* CQSideBarConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQSideBarConst.m; sourceTree = "<group>"; };
+		33BD16201FFCC29A00171ABA /* CQSideBarManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQSideBarManager.h; sourceTree = "<group>"; };
+		33BD16211FFCC29A00171ABA /* UIView+CQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+CQExtension.h"; sourceTree = "<group>"; };
+		33BD16221FFCC29A00171ABA /* CQSideBarConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CQSideBarConst.h; sourceTree = "<group>"; };
+		33BD16261FFDC48500171ABA /* JLSelectItemViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLSelectItemViewController.h; sourceTree = "<group>"; };
+		33BD16271FFDC48500171ABA /* JLSelectItemViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLSelectItemViewController.m; sourceTree = "<group>"; };
 		3F01962928A6C2B315CECD30 /* Pods-MyDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoUITests/Pods-MyDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		56657B0F1AE751847833D0C9 /* Pods-MyDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemoUITests/Pods-MyDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		881DE511D487A27010560C00 /* libPods-MyDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -124,6 +136,7 @@
 		33B260E81F7F724100C8F92D /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				33BD161C1FFCC29A00171ABA /* CQSideBarManager */,
 				33B260E91F7F724100C8F92D /* AppDelegate.h */,
 				33B260EA1F7F724100C8F92D /* AppDelegate.m */,
 				33B260EC1F7F724100C8F92D /* ViewController.h */,
@@ -132,6 +145,8 @@
 				3370CBC61FD45027005D1EDD /* JLBaseViewController.m */,
 				3370CBC21FD44F34005D1EDD /* JLTestLightLabelViewController.h */,
 				3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */,
+				33BD16261FFDC48500171ABA /* JLSelectItemViewController.h */,
+				33BD16271FFDC48500171ABA /* JLSelectItemViewController.m */,
 				33B260EF1F7F724100C8F92D /* Main.storyboard */,
 				33B260F21F7F724100C8F92D /* Assets.xcassets */,
 				33B260F41F7F724100C8F92D /* LaunchScreen.storyboard */,
@@ -158,6 +173,19 @@
 			);
 			path = MyDemoUITests;
 			sourceTree = "<group>";
+		};
+		33BD161C1FFCC29A00171ABA /* CQSideBarManager */ = {
+			isa = PBXGroup;
+			children = (
+				33BD16211FFCC29A00171ABA /* UIView+CQExtension.h */,
+				33BD161D1FFCC29A00171ABA /* UIView+CQExtension.m */,
+				33BD16221FFCC29A00171ABA /* CQSideBarConst.h */,
+				33BD161F1FFCC29A00171ABA /* CQSideBarConst.m */,
+				33BD16201FFCC29A00171ABA /* CQSideBarManager.h */,
+				33BD161E1FFCC29A00171ABA /* CQSideBarManager.m */,
+			);
+			path = CQSideBarManager;
+			sourceTree = SOURCE_ROOT;
 		};
 		BADF3AC6436711186AD72400 /* Pods */ = {
 			isa = PBXGroup;
@@ -463,10 +491,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BD16251FFCC29A00171ABA /* CQSideBarConst.m in Sources */,
 				3370CBC41FD44F34005D1EDD /* JLTestLightLabelViewController.m in Sources */,
 				33B260EE1F7F724100C8F92D /* ViewController.m in Sources */,
 				3370CBC71FD45027005D1EDD /* JLBaseViewController.m in Sources */,
+				33BD16281FFDC48500171ABA /* JLSelectItemViewController.m in Sources */,
+				33BD16241FFCC29A00171ABA /* CQSideBarManager.m in Sources */,
 				33B260F91F7F724100C8F92D /* main.m in Sources */,
+				33BD16231FFCC29A00171ABA /* UIView+CQExtension.m in Sources */,
 				33B260EB1F7F724100C8F92D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
