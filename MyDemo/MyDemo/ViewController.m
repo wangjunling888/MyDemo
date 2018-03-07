@@ -65,6 +65,9 @@
     return _dataArr;
 }
 
+
+
+
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
     
     NSString* str = self.dataArr[indexPath.row];
@@ -81,8 +84,14 @@
     
     NSLog(@"测试");
     
+    NSLog(@"测试");
     
 }
+- (void)test {
+    
+}
+
+
 #pragma mark - CQSideBarManagerDelegate
 - (UIView *)viewForSideBar {
     return self.sideBarVC.view;
