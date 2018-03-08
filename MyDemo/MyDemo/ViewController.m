@@ -84,7 +84,7 @@
     
     NSLog(@"测试");
     
-    NSLog(@"测试");
+    NSLog(@"刚才删除错了");
     
 }
 #pragma mark - CQSideBarManagerDelegate
