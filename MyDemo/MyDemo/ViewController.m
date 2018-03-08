@@ -87,15 +87,12 @@
     NSLog(@"测试");
     
 }
-- (void)test {
-    
-}
-
-
 #pragma mark - CQSideBarManagerDelegate
 - (UIView *)viewForSideBar {
     return self.sideBarVC.view;
 }
+
+
 
 - (JLTestLightLabelViewController *)sideBarVC {
     if (_sideBarVC == nil) {
