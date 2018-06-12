@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		331D543820B511B200CF1BEA /* JLTestHtmlStrViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 331D543720B511B200CF1BEA /* JLTestHtmlStrViewController.m */; };
+		3346708D20CEE49000246845 /* JLUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 3346708C20CEE49000246845 /* JLUser.m */; };
 		3370CBC41FD44F34005D1EDD /* JLTestLightLabelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */; };
 		3370CBC71FD45027005D1EDD /* JLBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3370CBC61FD45027005D1EDD /* JLBaseViewController.m */; };
 		33B260EB1F7F724100C8F92D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B260EA1F7F724100C8F92D /* AppDelegate.m */; };
@@ -17,6 +19,11 @@
 		33B260F91F7F724100C8F92D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B260F81F7F724100C8F92D /* main.m */; };
 		33B261031F7F724100C8F92D /* MyDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B261021F7F724100C8F92D /* MyDemoTests.m */; };
 		33B2610E1F7F724100C8F92D /* MyDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33B2610D1F7F724100C8F92D /* MyDemoUITests.m */; };
+		33BA013E20CC1F0D00300268 /* JLObserverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA013D20CC1F0D00300268 /* JLObserverViewController.m */; };
+		33BA014120CC1F6900300268 /* JLObserverObserveeHandle.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA014020CC1F6900300268 /* JLObserverObserveeHandle.m */; };
+		33BA014420CC1FDA00300268 /* JLObserverManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA014320CC1FDA00300268 /* JLObserverManager.m */; };
+		33BA014720CC208700300268 /* JLMyObserver.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BA014620CC208700300268 /* JLMyObserver.m */; };
+		33BBEA3520BDB5BA0079D9BA /* JLTestPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BBEA3420BDB5BA0079D9BA /* JLTestPerson.m */; };
 		33BD16231FFCC29A00171ABA /* UIView+CQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD161D1FFCC29A00171ABA /* UIView+CQExtension.m */; };
 		33BD16241FFCC29A00171ABA /* CQSideBarManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD161E1FFCC29A00171ABA /* CQSideBarManager.m */; };
 		33BD16251FFCC29A00171ABA /* CQSideBarConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BD161F1FFCC29A00171ABA /* CQSideBarConst.m */; };
@@ -45,6 +52,12 @@
 
 /* Begin PBXFileReference section */
 		31F6926B1572D7403877EAC1 /* Pods-MyDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyDemo/Pods-MyDemo.release.xcconfig"; sourceTree = "<group>"; };
+		331D543620B511B200CF1BEA /* JLTestHtmlStrViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTestHtmlStrViewController.h; sourceTree = "<group>"; };
+		331D543720B511B200CF1BEA /* JLTestHtmlStrViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTestHtmlStrViewController.m; sourceTree = "<group>"; };
+		331D543920B5165A00CF1BEA /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		331D543A20B5170600CF1BEA /* TaiChiMacroDefinesHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TaiChiMacroDefinesHeader.h; sourceTree = "<group>"; };
+		3346708B20CEE49000246845 /* JLUser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLUser.h; sourceTree = "<group>"; };
+		3346708C20CEE49000246845 /* JLUser.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLUser.m; sourceTree = "<group>"; };
 		3370CBC21FD44F34005D1EDD /* JLTestLightLabelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTestLightLabelViewController.h; sourceTree = "<group>"; };
 		3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTestLightLabelViewController.m; sourceTree = "<group>"; };
 		3370CBC51FD45027005D1EDD /* JLBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLBaseViewController.h; sourceTree = "<group>"; };
@@ -65,6 +78,16 @@
 		33B261091F7F724100C8F92D /* MyDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		33B2610D1F7F724100C8F92D /* MyDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyDemoUITests.m; sourceTree = "<group>"; };
 		33B2610F1F7F724100C8F92D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BA013C20CC1F0D00300268 /* JLObserverViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLObserverViewController.h; sourceTree = "<group>"; };
+		33BA013D20CC1F0D00300268 /* JLObserverViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLObserverViewController.m; sourceTree = "<group>"; };
+		33BA013F20CC1F6900300268 /* JLObserverObserveeHandle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLObserverObserveeHandle.h; sourceTree = "<group>"; };
+		33BA014020CC1F6900300268 /* JLObserverObserveeHandle.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLObserverObserveeHandle.m; sourceTree = "<group>"; };
+		33BA014220CC1FDA00300268 /* JLObserverManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLObserverManager.h; sourceTree = "<group>"; };
+		33BA014320CC1FDA00300268 /* JLObserverManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLObserverManager.m; sourceTree = "<group>"; };
+		33BA014520CC208700300268 /* JLMyObserver.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLMyObserver.h; sourceTree = "<group>"; };
+		33BA014620CC208700300268 /* JLMyObserver.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLMyObserver.m; sourceTree = "<group>"; };
+		33BBEA3320BDB5BA0079D9BA /* JLTestPerson.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JLTestPerson.h; sourceTree = "<group>"; };
+		33BBEA3420BDB5BA0079D9BA /* JLTestPerson.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JLTestPerson.m; sourceTree = "<group>"; };
 		33BD161D1FFCC29A00171ABA /* UIView+CQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+CQExtension.m"; sourceTree = "<group>"; };
 		33BD161E1FFCC29A00171ABA /* CQSideBarManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQSideBarManager.m; sourceTree = "<group>"; };
 		33BD161F1FFCC29A00171ABA /* CQSideBarConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CQSideBarConst.m; sourceTree = "<group>"; };
@@ -111,6 +134,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		331D543420B5113500CF1BEA /* Class */ = {
+			isa = PBXGroup;
+			children = (
+				33BA013B20CC1EE700300268 /* 测试观察者 */,
+				331D543520B5119000CF1BEA /* 测试本地html字符串加载 */,
+				3370CBC51FD45027005D1EDD /* JLBaseViewController.h */,
+				3370CBC61FD45027005D1EDD /* JLBaseViewController.m */,
+				3370CBC21FD44F34005D1EDD /* JLTestLightLabelViewController.h */,
+				3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */,
+				33BD16261FFDC48500171ABA /* JLSelectItemViewController.h */,
+				33BD16271FFDC48500171ABA /* JLSelectItemViewController.m */,
+			);
+			name = Class;
+			path = MyDemo/Class;
+			sourceTree = SOURCE_ROOT;
+		};
+		331D543520B5119000CF1BEA /* 测试本地html字符串加载 */ = {
+			isa = PBXGroup;
+			children = (
+				331D543620B511B200CF1BEA /* JLTestHtmlStrViewController.h */,
+				331D543720B511B200CF1BEA /* JLTestHtmlStrViewController.m */,
+				33BBEA3320BDB5BA0079D9BA /* JLTestPerson.h */,
+				33BBEA3420BDB5BA0079D9BA /* JLTestPerson.m */,
+			);
+			path = "测试本地html字符串加载";
+			sourceTree = "<group>";
+		};
 		33B260DD1F7F724100C8F92D = {
 			isa = PBXGroup;
 			children = (
@@ -136,22 +186,19 @@
 		33B260E81F7F724100C8F92D /* MyDemo */ = {
 			isa = PBXGroup;
 			children = (
+				331D543420B5113500CF1BEA /* Class */,
 				33BD161C1FFCC29A00171ABA /* CQSideBarManager */,
 				33B260E91F7F724100C8F92D /* AppDelegate.h */,
 				33B260EA1F7F724100C8F92D /* AppDelegate.m */,
 				33B260EC1F7F724100C8F92D /* ViewController.h */,
 				33B260ED1F7F724100C8F92D /* ViewController.m */,
-				3370CBC51FD45027005D1EDD /* JLBaseViewController.h */,
-				3370CBC61FD45027005D1EDD /* JLBaseViewController.m */,
-				3370CBC21FD44F34005D1EDD /* JLTestLightLabelViewController.h */,
-				3370CBC31FD44F34005D1EDD /* JLTestLightLabelViewController.m */,
-				33BD16261FFDC48500171ABA /* JLSelectItemViewController.h */,
-				33BD16271FFDC48500171ABA /* JLSelectItemViewController.m */,
 				33B260EF1F7F724100C8F92D /* Main.storyboard */,
 				33B260F21F7F724100C8F92D /* Assets.xcassets */,
 				33B260F41F7F724100C8F92D /* LaunchScreen.storyboard */,
 				33B260F71F7F724100C8F92D /* Info.plist */,
 				33B260F81F7F724100C8F92D /* main.m */,
+				331D543A20B5170600CF1BEA /* TaiChiMacroDefinesHeader.h */,
+				331D543920B5165A00CF1BEA /* PrefixHeader.pch */,
 			);
 			path = MyDemo;
 			sourceTree = "<group>";
@@ -172,6 +219,23 @@
 				33B2610F1F7F724100C8F92D /* Info.plist */,
 			);
 			path = MyDemoUITests;
+			sourceTree = "<group>";
+		};
+		33BA013B20CC1EE700300268 /* 测试观察者 */ = {
+			isa = PBXGroup;
+			children = (
+				33BA013C20CC1F0D00300268 /* JLObserverViewController.h */,
+				33BA013D20CC1F0D00300268 /* JLObserverViewController.m */,
+				33BA014220CC1FDA00300268 /* JLObserverManager.h */,
+				33BA014320CC1FDA00300268 /* JLObserverManager.m */,
+				33BA013F20CC1F6900300268 /* JLObserverObserveeHandle.h */,
+				33BA014020CC1F6900300268 /* JLObserverObserveeHandle.m */,
+				33BA014520CC208700300268 /* JLMyObserver.h */,
+				33BA014620CC208700300268 /* JLMyObserver.m */,
+				3346708B20CEE49000246845 /* JLUser.h */,
+				3346708C20CEE49000246845 /* JLUser.m */,
+			);
+			path = "测试观察者";
 			sourceTree = "<group>";
 		};
 		33BD161C1FFCC29A00171ABA /* CQSideBarManager */ = {
@@ -491,11 +555,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33BBEA3520BDB5BA0079D9BA /* JLTestPerson.m in Sources */,
+				33BA014420CC1FDA00300268 /* JLObserverManager.m in Sources */,
 				33BD16251FFCC29A00171ABA /* CQSideBarConst.m in Sources */,
 				3370CBC41FD44F34005D1EDD /* JLTestLightLabelViewController.m in Sources */,
 				33B260EE1F7F724100C8F92D /* ViewController.m in Sources */,
+				33BA014120CC1F6900300268 /* JLObserverObserveeHandle.m in Sources */,
 				3370CBC71FD45027005D1EDD /* JLBaseViewController.m in Sources */,
 				33BD16281FFDC48500171ABA /* JLSelectItemViewController.m in Sources */,
+				3346708D20CEE49000246845 /* JLUser.m in Sources */,
+				33BA013E20CC1F0D00300268 /* JLObserverViewController.m in Sources */,
+				33BA014720CC208700300268 /* JLMyObserver.m in Sources */,
+				331D543820B511B200CF1BEA /* JLTestHtmlStrViewController.m in Sources */,
 				33BD16241FFCC29A00171ABA /* CQSideBarManager.m in Sources */,
 				33B260F91F7F724100C8F92D /* main.m in Sources */,
 				33BD16231FFCC29A00171ABA /* UIView+CQExtension.m in Sources */,
@@ -592,6 +663,8 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wangjunling/Desktop/MyDemo/MyDemo/MyDemo/PrefixHeader.pch;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -645,6 +718,8 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/wangjunling/Desktop/MyDemo/MyDemo/MyDemo/PrefixHeader.pch;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
